@@ -1,0 +1,11 @@
+{
+    "summary": {
+      "en-US": "Adds slyle and js files to Ficbook pages, in case you cannot load them"
+    },
+    "categories": [
+      "appearance"
+    ],
+    "version": {
+      "license": "MIT"
+    }
+  }
