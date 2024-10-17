@@ -1,6 +1,6 @@
 {
-  "name": "fix Ficbook styles",
-  "version": "1.3",
+  "name": "Fixxbook",
+  "version": "1.4",
   "manifest_version": 2,
   "description": "Adds slyle and js files to Ficbook pages, in case you cannot load them",
   "browser_specific_settings": {
