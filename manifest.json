@@ -1,16 +1,13 @@
 {
   "name": "Fixxbook",
-  "version": "1.4",
+  "version": "1.5",
   "manifest_version": 2,
   "description": "Adds slyle and js files to Ficbook pages, in case you cannot load them",
   "browser_specific_settings": {
     "gecko": { "id": "{4b30d7a9-612a-43d3-8055-940296fb1f5c}" }
   },
   "web_accessible_resources": [
-    "app.e070967e3f978c7f0296.js",
-    "775.6f6128e1437b5d15972e.js",
-    "app.df4e75f7ad1d24d4125c.css",
-    "logo.svg"
+    "/pieces/*"
   ],
   "permissions": ["activeTab", "scripting", "tabs", "https://ficbook.net/*/"],
   "background": {
@@ -19,7 +16,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["app.df4e75f7ad1d24d4125c.css"],
+      "css": ["pieces/app.1d3829ef94e2b6406292.css"],
       "run_at": "document_start"
     }
   ]
